@@ -19,6 +19,4 @@ app.use("/form", contactRoute);
 app.use("/admin", getAllUsers);
 app.use("/admin", getAllcontact);
 
-app.listen(PORT, () => {
-  console.log(`server is running at ${PORT}`);
-});
+app.listen(PORT);
